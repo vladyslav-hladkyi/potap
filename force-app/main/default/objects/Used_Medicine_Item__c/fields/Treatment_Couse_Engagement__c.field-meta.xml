@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Treatment_Couse_Engagement__c</fullName>
+    <externalId>false</externalId>
+    <label>Treatment Couse Engagement</label>
+    <referenceTo>Treatment_Course_Engagement__c</referenceTo>
+    <relationshipLabel>Used Medicine Items</relationshipLabel>
+    <relationshipName>Used_Medicine_Items</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

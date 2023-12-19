@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Patient_Id__c</fullName>
+    <externalId>false</externalId>
+    <formula>$User.Patient_Id__c == CASESAFEID(Patient__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current Patient Id</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
